@@ -62,6 +62,4 @@
 ### TODO :
 #### 1. Before running the function run in terminal window to change directory<br/>**cd task_time_tracker**
 #### 2. Then run in your terminal<br/> **python tracker.py**
-
-#### 1. Before running the function run in terminal window to change directory<br/>**cd project**
-#### 2. Then run in your terminal<br/> **python project.py**
+#### 3. Run in your terminal<br/> **pip install tabulate**
