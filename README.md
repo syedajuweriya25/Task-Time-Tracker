@@ -42,10 +42,10 @@
 
 ### Why particular choice over others? :
 <!-- why I used sys library-->
-#### In 'directs' function in some places, in 'add_task' function and in 'mark_task' function we use 'sys' library to exit to be user friendly and harsh to the user. Based on the requirements in some places an exit message is also provided
+#### In 'directs' function in some places, in 'add_task' function and in 'mark_task' function we use 'sys' library to exit to be user friendly and not be harsh to the user. Based on the requirements in some places an exit message is also provided
 
 <!-- why use regex concept and not any other-->
-#### In 'directs' function we use 're' library and the concept of regex to evaluate the user input to direct to correct function.Regex concept is used to evaluate user input to be user friendly and also to increase the effectiveness of the program by avoiding usage
+#### In 'directs' function we use 're' library and the concept of regex to evaluate the user input to direct to correct function.Regex concept is used to evaluate user input to be user friendly and also to increase the effectiveness of the program by avoiding excessive usage of conditionals.
 
 <!-- why I raised a vaue error-->
 #### In 'directs' function we raised 'ValueError' along with an error message if the input provided by user doesn't even match the specified requirement.
